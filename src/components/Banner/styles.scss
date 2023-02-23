@@ -1,0 +1,18 @@
+section.carousel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    box-sizing: border-box;
+    
+
+    img {
+        width: 733.51px;
+        
+    }
+
+    div {
+        flex: 1;
+        // width: 50%;
+    }
+}

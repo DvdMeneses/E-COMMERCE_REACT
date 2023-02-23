@@ -1,0 +1,109 @@
+.EmAlta{
+    width: 100%;
+    padding: 0 50px;
+    background-color: #f9f8fe;
+    box-sizing: border-box;
+    
+    
+    
+    #title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #title h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 38px;
+        color: #474747;
+        letter-spacing: 0.75px;   
+    }
+    
+    a.link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 34px;
+        color: #C92071;
+        padding: 0px;
+        background-color: none;
+    }
+    
+    .items {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 24px;
+    }
+    
+    .boxImage {
+        display: flex;
+        height: 320px;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        position: relative;
+    }
+    
+    .boxImage.discount::before {
+        content: attr(data-discount);
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        padding: 5px 15px;
+        background-color:#E7FF86;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 29px;
+    }
+    
+    .boxImage img {
+        width: 80%;
+        transform: rotate(-30deg);
+        
+    }
+    
+    .category {
+        display: block;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 24px;
+        color: #8f8f8f;
+        
+    }
+    
+    .productName {
+        margin: 10px 0px;
+        font-weight: 400;
+        font-size: 20px;
+       
+        color: #474747;
+    }
+    
+    .price{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .price h3:first-child {
+        margin: 0px;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 0.75px;
+        text-decoration: line-through;
+        color: #8F8F8F;
+    }
+    
+    .price h3:last-child { 
+        margin: 0px;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.75px;
+        color: #1F1F1F;
+    }
+}

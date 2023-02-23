@@ -1,0 +1,29 @@
+{
+    "highlight-icons": [
+        {
+            "id": 1,
+            "text": "Camisetas",
+            "icon": "/images/T-Shirts.svg"
+        },
+        {
+            "id": 2,
+            "text": "Calças",
+            "icon": "/images/Pants.svg"
+        },
+        {
+            "id": 3,
+            "text": "Bonés",
+            "icon": "/images/Pants.svg"
+        },
+        {
+            "id": 4,
+            "text": "Bonés",
+            "icon": "/images/HeadFones.svg"
+        },
+        {
+            "id": 5,
+            "text": "Bonés",
+            "icon": "/images/tennis-icon.svg"
+        }
+    ]
+}

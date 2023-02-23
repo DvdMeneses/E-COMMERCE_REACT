@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body {
+	line-height: 1;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header{
+   
+
+
+    width: 100%;
+    height: 125px;
+    padding: 0 50px;
+
+    display: flex;/*deixar os itens um ao lado do outro*/
+    align-items: center; /*deixar os itens alinhados ao centro*/
+    justify-content: space-between;/*ajustar espacamento dos itens */
+
+    box-sizing: border-box;/*ajustar o enquadramento*/
+
+    background-color: white;
+
+
+
+
+
+#header-top__search form {
+    display: flex;
+}
+
+#header-top__search form input {
+    width: 510px;
+    height: 60px;
+
+    background-color: #F8F8F8;
+
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+
+    padding: 0 20px;/*borda do elemento*/
+    box-sizing: border-box;
+}
+
+#header-top__search form button {
+    width: 50px;
+    height: 60px;
+
+    background-color: #F8F8F8;
+
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+}
+
+button img {
+    width: 19px;
+}
+
+#header-top__links a:first-child {
+    color: #474747;
+
+    margin-right: 25px;
+    text-underline-offset: 4px; /*espacamento sublinhado do cadastre-se*/
+}
+
+#header-top__links a:last-child {
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+
+    color: #f5f5f5;
+    background-color: #C92071;
+
+    
+
+    padding: 12px 35px;
+
+    border-radius: 8px;
+}
+
+#header-top__cart a {
+    position: relative;
+}
+
+#header-top__cart a::before {
+    content: attr(data-value);
+
+    width: 17px;
+    height: 17px;
+
+    background-color: #EE4266;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: -12px;
+    right: -10px;
+
+    font-size: 12px;
+    font-weight: 700;
+}
+}

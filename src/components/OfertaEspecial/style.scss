@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+
+    #boxOferta {
+        padding: 0 50px;
+        margin-top: 235px;
+        display: flex;
+        background-color: #ffffff;
+    
+        
+    }
+
+    #infos {
+        padding-left: 67px;
+    }
+
+    #title h1 {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: #C92071;
+        padding-bottom: 1px;
+    
+    }
+    #infos h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 50px;
+        color: #474747;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    #infos h3 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #474747;
+        margin-top: 5px;
+        margin-bottom: 36px;
+    }
+    .veroferta{
+        
+        font-weight: 700;
+        font-size: 14px;
+        border-style: none;
+        color: #f5f5f5;
+        background-color: #C92071;
+        padding: 10px 57px;
+        border-radius: 8px;
+        
+    }
+
+
+}

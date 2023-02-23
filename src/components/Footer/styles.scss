@@ -1,0 +1,99 @@
+@use '../../assets/colors';
+
+.container-footer {
+    width: 100%;
+    color: colors.$text-footer;
+    background-color: #1F1F1F;
+    line-height: 26px;
+    margin-top: 106px;
+    padding-top: 72px;
+    padding-bottom: 22px;
+
+    .container-columns {
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 34px;
+    }
+
+    .column1 {
+        margin-right: 100px;
+        width: 100%;
+        
+        .digital-store {
+            display: flex;
+            margin-bottom: 35px;
+            .logo-footer {
+                margin-right: 8px;
+            }
+            
+        }
+        .footer-lorem {
+            margin-bottom: 41px;
+        }
+        .social-media img {
+            margin-right: 35px;
+            cursor: pointer;
+        }     
+    }
+
+    .column2 {
+        margin-right: 100px;
+        width: 43%;
+        display: flex;
+        flex-direction: column;
+        h4, a {
+            margin-bottom: 28px;
+        }
+        h4 {
+            font-size: 18px;
+        }
+        a {
+            cursor: pointer;
+            font-size: 16px;
+        }
+    }
+
+    .column3 {
+        margin-right: 130px;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        h4, a {
+            margin-bottom: 28px;
+        }
+        h4 {
+            font-size: 18px;
+        }
+        a {
+            cursor: pointer;
+            font-size: 16px;
+        }
+    }
+
+    .column4 {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        h4 {
+            font-size: 18px;
+        }
+        p {
+            margin: 0;
+            font-size: 16px;
+            margin-bottom: 14px;
+        }
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+        div {
+            margin-bottom: 23px;
+            width: 1060px;
+            border-bottom: 0.1px solid #ffffff71;
+        }
+    }
+}
